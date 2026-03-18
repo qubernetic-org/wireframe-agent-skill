@@ -1,11 +1,11 @@
 ---
 name: wireframe-mockup
 description: "Generate black-and-white structural wireframe mockups using a specific dashed-border, monospace, grayscale design system. Use when the user asks to create a wireframe, mockup, wireframe page, structural mockup, low-fidelity prototype, wireframe layout, or mentions 'wireframe', 'mockup', 'wireframe mockup', 'structural mockup'. Produces self-contained React + Tailwind CSS wireframe pages with placeholder images, dashed borders, and a diagonal watermark."
-version: 1.0.0
+version: 1.0.1
 license: MIT
 metadata:
   author: Qubernetic
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Wireframe Mockup Generator

@@ -2,7 +2,7 @@
 
 # Wireframe Mockup — Claude Code Skill
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-skill-7c3aed.svg)](https://claude.ai/code)
 [![React](https://img.shields.io/badge/React-TypeScript-61dafb.svg?logo=react&logoColor=white)](https://react.dev)
