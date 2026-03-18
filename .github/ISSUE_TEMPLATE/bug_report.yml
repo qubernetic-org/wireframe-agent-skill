@@ -1,0 +1,52 @@
+name: Bug Report
+description: The skill generated output that violates the design language
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please provide enough detail so we can reproduce the issue.
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt Used
+      description: What did you ask Claude Code to generate?
+      placeholder: "e.g., Create a wireframe for a SaaS landing page with hero and pricing sections"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-went-wrong
+    attributes:
+      label: What Went Wrong
+      description: Describe the incorrect output. Screenshots are very helpful.
+      placeholder: "e.g., The generated wireframe used blue buttons instead of grayscale dashed-border buttons"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: violation
+    attributes:
+      label: Design Rule Violated
+      description: Which design constraint was broken?
+      options:
+        - "Used colors (not grayscale)"
+        - "Used solid borders (not dashed)"
+        - "Used rounded corners"
+        - "Used real images or icons"
+        - "Used multiple fonts"
+        - "Used shadows or gradients"
+        - "Missing watermark"
+        - "Other (describe above)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should the output have looked like?
+    validations:
+      required: false
