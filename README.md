@@ -107,13 +107,6 @@ The complete visual system is documented in [DESIGN-LANGUAGE.md](DESIGN-LANGUAGE
 | `CHANGELOG.md` | Version history ([Keep a Changelog](https://keepachangelog.com/) format) |
 | `CONTRIBUTING.md` | Contribution guidelines and design constraint checklist |
 
-## Origin
-
-Design language extracted from two wireframe reference projects:
-
-- [sq-trade-complex-wireframe](https://github.com/qubernetic-org/sq-trade-complex-wireframe) — multi-page wireframe
-- [sq-trade-simple-wireframe](https://github.com/qubernetic-org/sq-trade-simple-wireframe) — single-page wireframe
-
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.

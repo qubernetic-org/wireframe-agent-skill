@@ -15,9 +15,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 7 responsive grid configurations
 - Complete Tailwind CSS configuration and base CSS
 - Single-page and multi-page layout templates
-
-### Origin
-
-Design language extracted from two reference wireframe projects:
-- [sq-trade-complex-wireframe](https://github.com/qubernetic-org/sq-trade-complex-wireframe)
-- [sq-trade-simple-wireframe](https://github.com/qubernetic-org/sq-trade-simple-wireframe)
