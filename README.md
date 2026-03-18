@@ -19,8 +19,8 @@ The skill activates automatically when you mention wireframes or mockups:
 
 ```
 > Create a wireframe for a SaaS landing page with hero, pricing, and FAQ sections
-> Készíts egy wireframe mockupot egy webshop főoldalához
 > Build a structural mockup for a dashboard with sidebar navigation
+> Make a wireframe mockup for an e-commerce homepage
 ```
 
 Or invoke directly with the slash command:
@@ -36,7 +36,7 @@ Or invoke directly with the slash command:
 - **Dashed borders** on all structural elements
 - **Roboto Mono** monospace typography throughout
 - **X-pattern placeholders** for images and icons
-- **Diagonal watermark**: "SZERKEZETI MOCKUP — NEM VÉGLEGES DESIGN"
+- **Diagonal watermark**: "STRUCTURAL MOCKUP — NOT FINAL DESIGN"
 - **Responsive** — mobile-first with sm/md/lg breakpoints
 - **Square corners** — zero border radius
 

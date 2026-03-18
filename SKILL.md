@@ -1,21 +1,21 @@
 ---
 name: wireframe-mockup
-description: "Generate black-and-white structural wireframe mockups using a specific dashed-border, monospace, grayscale design system. Use when the user asks to create a wireframe, mockup, wireframe page, structural mockup, low-fidelity prototype, wireframe layout, or mentions 'wireframe', 'mockup', 'drotvazmockup', 'szerkezeti mockup'. Produces self-contained React + Tailwind CSS wireframe pages with placeholder images, dashed borders, and a diagonal watermark."
+description: "Generate black-and-white structural wireframe mockups using a specific dashed-border, monospace, grayscale design system. Use when the user asks to create a wireframe, mockup, wireframe page, structural mockup, low-fidelity prototype, wireframe layout, or mentions 'wireframe', 'mockup', 'wireframe mockup', 'structural mockup'. Produces self-contained React + Tailwind CSS wireframe pages with placeholder images, dashed borders, and a diagonal watermark."
 version: 1.0.0
 license: MIT
 metadata:
-  author: cbiro
+  author: Qubernetic
   version: "1.0.0"
 ---
 
 # Wireframe Mockup Generator
 
-Generate black-and-white structural wireframe mockups in a consistent, technical design language. Every wireframe uses the same visual system: Roboto Mono monospace font, dashed borders, grayscale-only palette, X-pattern image placeholders, square corners, and a diagonal "SZERKEZETI MOCKUP — NEM VEGLEGES DESIGN" watermark.
+Generate black-and-white structural wireframe mockups in a consistent, technical design language. Every wireframe uses the same visual system: Roboto Mono monospace font, dashed borders, grayscale-only palette, X-pattern image placeholders, square corners, and a diagonal "STRUCTURAL MOCKUP — NOT FINAL DESIGN" watermark.
 
 ## When This Skill Applies
 
 - User asks to create a wireframe, mockup, or low-fidelity prototype
-- User mentions "wireframe", "mockup", "drotvazmockup", "szerkezeti mockup"
+- User mentions "wireframe", "mockup", "wireframe mockup", "structural mockup"
 - User wants a structural layout preview of a website or web application
 - User asks for a black-and-white page layout
 
@@ -91,7 +91,7 @@ Every image is a PlaceholderBox. Every icon is a dashed-border square with an X.
 
 ### Rule 6: Bracket Notation for Placeholder Text
 
-Logo: `[LOGO]`, buttons: `[Ajanlatok kerek]`, `[Kuldes]`, hamburger: `[☰]`, close: `[✕]`
+Logo: `[LOGO]`, buttons: `[Request Quote]`, `[Send]`, hamburger: `[☰]`, close: `[✕]`
 
 ---
 
@@ -210,7 +210,7 @@ Always include as the first child of the root element:
 function Watermark() {
   return (
     <div className="wireframe-watermark">
-      SZERKEZETI MOCKUP — NEM VEGLEGES DESIGN
+      STRUCTURAL MOCKUP — NOT FINAL DESIGN
     </div>
   );
 }
@@ -221,7 +221,7 @@ function Watermark() {
 Gray rectangle with diagonal X pattern and centered label:
 
 ```tsx
-function PlaceholderBox({ label = "[kep]", className = "" }: { label?: string; className?: string }) {
+function PlaceholderBox({ label = "[image]", className = "" }: { label?: string; className?: string }) {
   return (
     <div className={`placeholder-box ${className}`}>
       <span className="relative z-10 text-[10px] text-wire-secondary bg-wire-placeholder px-1">
@@ -363,7 +363,7 @@ Every content section follows this pattern:
 
 ```tsx
 <div className="dashed-border p-4">
-  <PlaceholderBox className="h-24 mb-3" label="[kep]" />
+  <PlaceholderBox className="h-24 mb-3" label="[image]" />
   <p className="text-xs font-bold mb-1">Service Name</p>
   <p className="text-xs text-wire-secondary">Lorem ipsum dolor sit amet...</p>
   <button className="dashed-border px-3 py-1 text-xs mt-3">[CTA]</button>
