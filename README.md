@@ -113,4 +113,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-[MIT](LICENSE) © [Qubernetic](https://github.com/qubernetic-org)
+[MIT](LICENSE) © [Qubernetic](https://github.com/qubernetic)
